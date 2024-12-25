@@ -217,7 +217,7 @@ if __name__ == '__main__':
         print('# of dataset', len(mask_list))
         
         # VIS: now VIS function is separted into another file. Only provide mask if needed
-        vis = True
+        vis = False
         # Change to [name1, name2, ...] if only need to run on a few samples
         im_list = None#['CHNCXR_0061_0_mask.png'] 
 
